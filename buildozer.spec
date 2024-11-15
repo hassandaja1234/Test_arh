@@ -14,6 +14,6 @@ android.permissions = CAMERA,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 android.api = 29
 android.minapi = 21
 # Removed android.sdk as it is deprecated
-android.ndk = 23b
+android.ndk = 27c
 # Replaced android.arch with android.archs
 android.archs = armeabi-v7a
