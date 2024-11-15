@@ -10,9 +10,10 @@ orientation = portrait
 osx.python_version = 3
 osx.kivy_version = 1.9.1
 fullscreen = 0
-android.permissions = CAMERA
+android.permissions = CAMERA,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 android.api = 29
 android.minapi = 21
-android.sdk = 24
+# Removed android.sdk as it is deprecated
 android.ndk = 23b
-android.arch = armeabi-v7a
+# Replaced android.arch with android.archs
+android.archs = armeabi-v7a
